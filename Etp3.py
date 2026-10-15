@@ -3,8 +3,8 @@ from rich.panel import Panel
 
 from rich.table import Table
 
-from etp1CarrgarDados import carregar_dados
-from formatacao import console, numero_br
+from Etp1CarregaDados import carregar_dados
+from Etp1formatacao import console, numero_br
 
 def mostrar_amostra(df, linha=5):
     
